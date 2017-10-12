@@ -30,7 +30,7 @@
       "additionalSetColors": []
     },
     "versionFirst": "4.3.0",
-    "uniqCompNum": 3,
+    "uniqCompNum": 5,
     "versionPublish": "4.3.0"
   },
   "pages": {
@@ -87,13 +87,41 @@
             }
           },
           "_name": "content6",
-          "_customHTML": "<section class=\"mbr-section content6\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n\n      <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"60\">\n      <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n    \n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"media-container-row\">\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                      <a href=\"https://l.facebook.com/l.php?u=https%3A%2F%2Fs3.amazonaws.com%2Fvivid-efx-videos%2Fvivid-beat-promo.mp4&h=ATO8YyZRgl6kG-wsu6eYazYrXOmEegvNgYxG-XPYNfh98OBJXWhS2aOt6_216vagnB9YFu2s4MV1M11E71Z--lAo5syOg_cABbh48kMy1x4LdIbaX7MbSIcQUPvoiffoLo6QvnZtRu3Ugfy8pOEwtMw_m7XV\"><img src=\"@PROJECT_PATH@/assets/images/vivid-logo80-241x220.png\" alt=\"Vivid-EFX\" title=\"Vivid-EFX Animations\"></a>  \n                    </div>\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                               <b><a href=\"https://vivid-efx.com/\" target=\"_blank\">Vivid</a>-EFX :&nbsp;</b>&nbsp;Located in Virgina they collaborate on projects. They are always experimenting with animation graphics. They have an animations ecommerce site and other services. &nbsp;You can click on the logo to the left to see one of their creations or the highlighted text to go to their website.</p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content6\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n\n      <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"60\">\n      <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n    \n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"media-container-row\">\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                      <a href=\"https://l.facebook.com/l.php?u=https%3A%2F%2Fs3.amazonaws.com%2Fvivid-efx-videos%2Fvivid-beat-promo.mp4&h=ATO8YyZRgl6kG-wsu6eYazYrXOmEegvNgYxG-XPYNfh98OBJXWhS2aOt6_216vagnB9YFu2s4MV1M11E71Z--lAo5syOg_cABbh48kMy1x4LdIbaX7MbSIcQUPvoiffoLo6QvnZtRu3Ugfy8pOEwtMw_m7XV\"><img src=\"@PROJECT_PATH@/assets/images/vivid-logo80-241x220.png\" alt=\"Vivid-EFX\" title=\"Vivid-EFX Animations\"></a>  \n                    </div>\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                               <b><a href=\"https://vivid-efx.com/\" target=\"_blank\">Vivid</a>-EFX :&nbsp;</b>&nbsp; Based in Virginia, Vivid-EFX ~ a Digital Graphics Animation company coupled with an Ecommerce platform is part of our collaboration network designed to help produce the best products possible for our clients..</p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "qxSlf5Bglb",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
           "_params": {},
           "_anchor": "content6-1"
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            "@media (min-width: 992px)": {
+              ".mbr-figure": {
+                "padding-right": "4rem"
+              }
+            },
+            "@media (max-width: 992px)": {
+              ".mbr-figure": {
+                "padding-bottom": "1rem"
+              }
+            },
+            ".mbr-text": {
+              "color": "#232323"
+            }
+          },
+          "_name": "content6",
+          "_customHTML": "<section class=\"mbr-section content6\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n      <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"60\">\n      <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n    \n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"media-container-row\">\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                      <img src=\"@PROJECT_PATH@/assets/images/18157911-1752842648339350-2149591092407839451-n-200x200.jpg\" alt=\"Mobirise\" title>  \n                    </div>\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><b>Worthington Wormhole - A.K.A Mike Richards</b>.. &nbsp; professional TV/Film background ...  Did my first (8mm) film when I was 13.&nbsp;Pro photography (Ealing School of Photography, before it became &nbsp;media section of the University of South London)  Then LWT/ITN and Freelance.</p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "qxSVZGyHvB",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content6-4"
         }
       ]
     }
